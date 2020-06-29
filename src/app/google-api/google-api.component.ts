@@ -142,6 +142,7 @@ export class GoogleApiComponent implements OnInit {
   }
 
   skipWord() {
+    console.log(this.words[this.wordIndex])
     this.words[this.wordIndex].recognised = true
     this.wordIndex++
   }
